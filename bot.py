@@ -11,7 +11,7 @@ from pyromod import listen
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN","6280972722:AAG3GrropPJhZvfjljtgppKeeXpfpBVZG4Y")
-API_ID = os.environ.get("API_ID","17983098")
+API_ID = os.environ.get("API_ID",17983098)
 API_HASH = os.environ.get("API_HASH","ee28199396e0925f1f44d945ac174f64")
 
 Bot = Client(
