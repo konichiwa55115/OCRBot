@@ -2,7 +2,7 @@ import os
 import pytesseract
 import requests
 from PIL import Image
-from pyrogram import Client, filters
+from pyrogram import Client, filters , enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import MessageEmpty
 from pyromod import listen
