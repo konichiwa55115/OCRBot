@@ -52,7 +52,7 @@ async def start(bot, update):
 async def ocr(bot, msg):
     lang_code = await bot.ask(msg.chat.id,'`Now send the ISO language code.`\n\n[List of ISO 639-2 language codes](https://en.m.wikipedia.org/wiki/List_of_ISO_639-2_codes)', filters=filters.text, parse_mode=enums.ParseMode.MARKDOWN, disable_web_page_preview=True)
     data_url = f"https://github.com/tesseract-ocr/tessdata/raw/main/{lang_code.text}.traineddata"
-    dirs = r"/app/vendor/tessdata"
+    dirs = r"/usr/share/tesseract-ocr/4.00/tessdata"
     path = os.path.join(dirs, f"{lang_code.text}.traineddata")
     if not os.path.exists(path):
         data = requests.get(data_url, allow_redirects=True, headers={'User-Agent': 'Mozilla/5.0'})
