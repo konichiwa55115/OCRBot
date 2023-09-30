@@ -22,17 +22,13 @@ Bot = Client(
 )
 
 START_TXT = """
-Hi {}
-I am OCR Bot.
-
-> `I can extract any text from images using OCR technology. All languages supported.`
-
-Send an image to get started.
+السلام عليكم يا  {}
+أنا بوت تفريغ الصفحات . فقط أرسل الصفحة / الصورة بدون ضغط للحفاظ على الجودة( مستحسن)
 """
 
 START_BTN = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Source Code', url='https://github.com/samadii/OCR-Bot'),
+        InlineKeyboardButton('بقية البوتات', url='https://t.me/sunnay6626/2'),
         ]]
     )
 
