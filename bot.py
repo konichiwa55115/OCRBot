@@ -10,7 +10,7 @@ from pyromod import listen
 #pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN","6280972722:AAG3GrropPJhZvfjljtgppKeeXpfpBVZG4Y")
+BOT_TOKEN = os.environ.get("BOT_TOKEN","5728042800:AAEbqBi-fgleDCmXqB2ZbjIlYqackbWioYY")
 API_ID = os.environ.get("API_ID",17983098)
 API_HASH = os.environ.get("API_HASH","ee28199396e0925f1f44d945ac174f64")
 
